@@ -1,0 +1,30 @@
+.mouse:hover .word {
+  display: inline;
+  opacity: 1;
+}
+
+.service_fede:hover .word{
+  display: inline;
+  opacity: 1;
+}
+
+.word {
+  position   : absolute;
+  opacity: -1;
+  padding: 2px;
+  color: aliceblue;
+  border-radius: 5px;
+  background-color:purple;
+  width:100px;
+  top: 50px;
+  left: 0px;
+  font-size: 12px;
+  text-align: center;
+}
+.submenu {
+  display: none;
+  position: absolute;
+}
+.menu-item:hover .submenu {
+  display: block;
+}
